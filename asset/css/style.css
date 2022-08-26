@@ -1,0 +1,45 @@
+.arrow {
+    transition: background-color .2s ease-out, opacity .2s;
+    transform: rotate(0deg);
+    width: 97%;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: 2px;
+}
+
+.arrow::after,
+.arrow::before {
+    content: "";
+    background: #fff;
+    transition: .16s ease-out 80ms;
+    height: 2px;
+    position: absolute;
+    bottom: 23px;
+}
+
+.arrow::after {
+    right: 33px;
+}
+
+.arrow::before {
+    box-shadow: -1px -1px 0 #fff, -2px -2px 0 #fff, -3px -3px 0 #fff, -4px -4px 0 #fff, -5px -5px 0 #fff, -1px 1px 0 #fff, -2px 2px 0 #fff, -3px 3px 0 #fff, -4px 4px 0 #fff, -5px 5px 0 #fff;
+    transform: translateX(0);
+    width: 2px;
+    right: 24px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.arrow:hover::before {
+    transform: translateX(2px);
+}
+
+.arrow:hover:after {
+    width: 10px;
+    margin-left: -20px;
+    transform: translateX(8px);
+}
