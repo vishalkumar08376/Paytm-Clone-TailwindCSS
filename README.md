@@ -15,13 +15,13 @@ This assignment is written in **HTML5, CSS3 and TailwindCSS** which is given in 
 
 **👉 FOR BIGGER SCREENS**
 
-![Screenshot](./asset/screenshot/screenshot.png "Template Screenshot")
+![Screenshot](./asset/screenshots/screenshot1.png "Template Screenshot")
 
 <br>
 
 **👉 FOR MOBILE**
  
-![Screenshot](./asset/screenshot/screenshot1.png "Template Screenshot")
+![Screenshot](./asset/screenshots/screenshot2.png "Template Screenshot") ![Screenshot](./asset/screenshots/screenshot3.png "Template Screenshot")
 
 <br>    
 
